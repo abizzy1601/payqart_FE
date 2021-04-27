@@ -310,4 +310,37 @@
       box-shadow: none;
     }
   }
+  img.logo {
+    width: 100%;
+}
+}
+@media (max-width:776px) and (min-width: 100px) {
+  .bg-ash {
+    background-color: #eeeeee;
+    display: none;
+}
+img {
+  vertical-align: middle;
+  border-style: none;
+  width: 100%;
+}
+.first_side {
+  display: grid;
+  grid-template-columns: 60% 0%;
+}
+.join_field.bg-white.shadow {
+  width: 100%;
+}
+.second_side {
+  padding: 3rem 0;
+  height: 100vh;
+  overflow-y: auto;
+  margin-left: -80px;
+  
+}
+.stepper .line {
+  height: 5px;
+  width: 40px;
+}
+
 }
